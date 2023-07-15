@@ -1,9 +1,9 @@
 import service.UserService;
+import view.MenuView;
 
 public class Main {
     public static void main(String[] args) {
-        UserService userService = new UserService();
-
-
+        MenuView menuView = new MenuView();
+        menuView.menuIniciar();
     }
 }
